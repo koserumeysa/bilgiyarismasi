@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kurallarEkrani"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/baslikKurallar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kurallar"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#660677"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/kural3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bütün soruları yanıtladıktan sonra toplam skorunuzu görebilirsiniz."
+            android:textSize="15sp"
+            android:background="@drawable/kurallar"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/kural2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kategorideki soruyu doğru cevapladığınızda kategori rengi yeşile dönmektedir."
+            android:textSize="15sp"
+            android:background="@drawable/kurallar"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/kural1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Her soruyu görmek için bir kategori seçmeniz gerekmektedir."
+            android:textSize="15sp"
+            android:background="@drawable/kurallar"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/kural4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eğer geri dönmek isterseniz geri dön butonunu kullanabilirsiniz."
+            android:textSize="15sp"
+            android:background="@drawable/kurallar"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/kural5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soruları cevaplamadan oyunu bitirmek için 'Yarışmayı bitir!' butonunu kullanabilirsiniz."
+            android:textSize="15sp"
+            android:background="@drawable/kurallar"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
